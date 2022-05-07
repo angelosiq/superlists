@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "superlists"
+version = "0.1.0"
+description = ""
+authors = ["Angelo Siqueira"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.0.4"
+
+[tool.poetry.dev-dependencies]
+selenium = "^4.1.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
