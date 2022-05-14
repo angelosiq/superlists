@@ -92,3 +92,17 @@ console.warn: services.settings: main/query-stripping sync interrupted by shutdo
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1652566609022	geckodriver	INFO	Listening on 127.0.0.1:43759
+1652566609026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57527" "-no-remote" "-profile" "/tmp/rust_mozprofilegoN1DL"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1652566609823	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegoN1DL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57527/devtools/browser/4d63f552-b1cc-48e6-84cf-b4799a4f36c6
+1652566611026	Marionette	INFO	Listening on port 41277
+1652566611056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652566614197	Marionette	INFO	Stopped listening on port 41277
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
